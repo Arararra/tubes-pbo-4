@@ -40,9 +40,11 @@ class Member extends User {
         super.displayInfo();
     }
     
-    public abstract void borrowBook();
+    public void borrowBook() {
+    }
     
-    public abstract void returnBook();
+    public void returnBook() {
+    }
 }
 
 // Class Admin
@@ -57,15 +59,24 @@ class Admin extends User {
         super.displayInfo();
     }
     
-    public abstract void addTransaction();    
-    public abstract void editTransaction();
-    public abstract void deleteTransaction();
+    public void addTransaction() {
+    }    
+    public void editTransaction() {
+    }
+    public void deleteTransaction() {
+    }
     
-    public abstract void addBook(); 
-    public abstract void editBook(); 
-    public abstract void deleteBook();
+    public void addBook() {
+    } 
+    public void editBook() {
+    } 
+    public void deleteBook() {
+    }
     
-    public abstract void addCategory();
-    public abstract void editCategory();
-    public abstract void deleteCategory();
+    public void addCategory() {
+    }
+    public void editCategory() {
+    }
+    public void deleteCategory() {
+    }
 }
