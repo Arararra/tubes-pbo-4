@@ -15,7 +15,7 @@ public class TubesPerpustakaan {
         Category kategori2 = new Category(2, "Novel");
 
         // Membuat user
-        User user1 = new User(1, "Budi", "budi@example.com", "08123456789", "Jl. Merdeka No. 1");
+        User user1 = new User(1, "Budi", "budi@example.com", "08123456789", "Jl. Merdeka No. 1", "admin");
 
         // Membuat buku dengan kategori
         Book book1 = new Book(101, "Pemrograman Java", kategori1, 5, "Eko", "Gramedia");
