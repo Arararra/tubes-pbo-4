@@ -67,5 +67,5 @@ class Admin extends User {
     
     public abstract void addCategory();
     public abstract void editCategory();
-    public abstract void deleteBook();
+    public abstract void deleteCategory();
 }
