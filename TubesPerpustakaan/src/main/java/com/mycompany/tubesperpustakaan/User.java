@@ -39,6 +39,10 @@ class Member extends User {
         System.out.println("==== Member Info ====");
         super.displayInfo();
     }
+    
+    public abstract void borrowBook();
+    
+    public abstract void returnBook();
 }
 
 // Class Admin
@@ -52,4 +56,16 @@ class Admin extends User {
         System.out.println("==== Admin Info ====");
         super.displayInfo();
     }
+    
+    public abstract void addTransaction();    
+    public abstract void editTransaction();
+    public abstract void deleteTransaction();
+    
+    public abstract void addBook(); 
+    public abstract void editBook(); 
+    public abstract void deleteBook();
+    
+    public abstract void addCategory();
+    public abstract void editCategory();
+    public abstract void deleteBook();
 }
